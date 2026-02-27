@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: DILLI PRATHAP 
+* **Register Number**: 212224110014
+* **Date of Submission**: 27-02-2026
 ---
 
 ## Objective
@@ -96,13 +95,21 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+I logged in to the AWS Management Console and opened Amazon Elastic Compute Cloud (EC2).
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+I launched a new EC2 instance using Amazon Linux 2 AMI and selected the t2.micro under the free tier.
+
+I created a new key pair to securely connect to the instance and downloaded the .pem file.
+
+I configured a security group allowing SSH (Port 22) from my IP address and HTTP (Port 80) from anywhere (0.0.0.0/0).
+
+After launching the instance, I connected to it using SSH with the key pair and accessed the Linux terminal.
+
+I performed basic instance operations such as stop, start, and reboot from the EC2 console and observed the instance state changes.
+
+I monitored the instance performance using CPU utilization, network traffic, and status checks in the Monitoring tab (via Amazon CloudWatch).
+
+Finally, I terminated the EC2 instance after completing the lab to avoid unnecessary AWS charges.
 
 ---
 
@@ -110,19 +117,23 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1160" height="1016" alt="Screenshot 2026-02-26 161514" src="https://github.com/user-attachments/assets/78e7ce80-d9e9-4f94-9574-e2ccf7785c92" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1257" height="460" alt="Screenshot 2026-02-27 093353" src="https://github.com/user-attachments/assets/7a37b241-eac8-42c7-b4a6-9ee140769241" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
+## t2-micro:
 
-(Insert Screenshot Here)
+<img width="1668" height="356" alt="Screenshot 2026-02-27 082616" src="https://github.com/user-attachments/assets/79378b0c-a62f-4dd1-8d9e-b91ffe13e435" />
+
+## t2-small:
+<img width="1445" height="970" alt="Screenshot 2026-02-27 092158" src="https://github.com/user-attachments/assets/3a8ca9e0-2f92-49df-8d2d-0be8f0356ef6" />
 
 ---
 
