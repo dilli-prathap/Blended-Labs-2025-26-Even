@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: DILLI PRATHAP
+* **Register Number**: 212224110014
+* **Date of Submission**: 12-03-2026
 
 ---
 
@@ -78,13 +78,16 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. I logged in to the **AWS Management Console** and opened the **EC2 Dashboard**. Then I explored the **Elastic Block Store (EBS)** section to understand the different volume types available.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2. I created a new **EBS volume** by selecting the required size and volume type. While creating the volume, I made sure it was in the **same Availability Zone** as my running EC2 instance.
+
+3. After the volume was created, I attached the EBS volume to the EC2 instance as an **additional block device** using the **Attach Volume** option.
+
+4. I connected to the EC2 instance using **SSH**, identified the attached volume using the `lsblk` command, and formatted the volume with the **ext4 file system**.
+
+5. I created a directory, mounted the EBS volume to that directory, stored sample files in it, and then rebooted the EC2 instance to verify that the **data persisted after the reboot**.
+
 
 ---
 
@@ -92,19 +95,23 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1101" height="1007" alt="Screenshot 2026-03-12 102151" src="https://github.com/user-attachments/assets/f7fbe1a3-f950-4e4c-91db-bdf064ba87b4" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1113" height="944" alt="Screenshot 2026-03-12 102600" src="https://github.com/user-attachments/assets/d134f8f0-0e58-4626-a2d7-9ba6e81e942f" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
+<img width="1531" height="978" alt="Screenshot 2026-03-12 103046" src="https://github.com/user-attachments/assets/0e02d1e8-de71-40a2-aab2-316d1d70234e" />
 
-(Insert Screenshot Here)
+<img width="1532" height="948" alt="Screenshot 2026-03-12 104100" src="https://github.com/user-attachments/assets/a32fc92f-7194-4759-a4a4-54fcb8140687" />
+
+<img width="1529" height="956" alt="Screenshot 2026-03-12 105359" src="https://github.com/user-attachments/assets/b33b5489-f565-4f35-a722-aac14f61659f" />
 
 ---
 
