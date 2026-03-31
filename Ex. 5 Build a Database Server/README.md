@@ -108,7 +108,7 @@ Finally, I tested the database by running SQL queries to verify connectivity.
 ---
 
 ### Screenshot 3: Sample Database and Table
-<img width="1919" height="1032" alt="564948758-a6ae7309-ef6b-4eec-b2ab-9c80137c95a8" src="https://github.com/user-attachments/assets/ce95d749-cc29-4490-b46b-353c4dc3319b" />
+<img width="1767" height="498" alt="Screenshot 2026-03-31 153910" src="https://github.com/user-attachments/assets/3458427a-4479-4c03-9a7d-3c8479eeda7a" />
 
 
 ---
